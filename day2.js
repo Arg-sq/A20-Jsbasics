@@ -26,9 +26,14 @@ function getStudentName() {
   console.log("i am normal func");
 }
 
-getCollegeName();
+// getCollegeName();
 const getCollegeName = () => {
   console.log("i am arrow func");
 };
 // console.log(abc);
 // var abc = "hari";
+
+const getName = (name) => {
+  console.log(`hi, ${name}`);
+};
+getName("babish");
